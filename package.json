@@ -1,0 +1,49 @@
+{
+  "name": "fastify-ai-chatbot",
+  "version": "1.0.0",
+  "description": "Fastify plugin that adds the Asyntai AI chat assistant to every HTML page your app sends. It answers visitor questions from your own content, in 80+ languages.",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "fastify",
+    "fastify-plugin",
+    "chatbot",
+    "ai-chatbot",
+    "ai",
+    "chat",
+    "chat-widget",
+    "live-chat",
+    "customer-support",
+    "asyntai"
+  ],
+  "homepage": "https://asyntai.com/documentation/integrations/fastify/",
+  "bugs": {
+    "url": "https://github.com/asyntai/fastify-ai-chatbot/issues",
+    "email": "hello@asyntai.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asyntai/fastify-ai-chatbot.git"
+  },
+  "author": "Asyntai <hello@asyntai.com> (https://asyntai.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0"
+  },
+  "scripts": {
+    "test": "node --test tests/plugin.test.js"
+  },
+  "dependencies": {
+    "fastify-plugin": "^5.0.0 || ^6.0.0"
+  },
+  "devDependencies": {
+    "@fastify/compress": "^9.0.0",
+    "@fastify/static": "^10.0.0",
+    "fastify": "^5.0.0"
+  }
+}
